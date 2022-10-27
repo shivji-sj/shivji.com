@@ -1,0 +1,328 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+/* Navigation bar code start*/
+nav{
+	height: 60px;
+	display: flex;
+	background-color: rgb(42, 27, 128);
+	align-items:center;
+	justify-content: space-between;
+	padding: 0px 5px 0px 10px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+
+}
+nav .logo{
+	font-size: 30px;
+	color:  #fff;
+	font-weight: 600;
+	padding:0px;
+	margin-left: -400px;
+
+}
+nav ul li{
+	margin: 0px 5px;
+}
+
+nav ul li a{
+	color :#fff;
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	transition: all 0.3 eas e; 
+}
+
+nav ul li a:hover, nav ul li a:active{
+	color:  cyan;
+	background:none ;
+}
+ 
+/* navigation bar code ended */
+
+
+/* python resources title */
+.all_resources .resources_title{
+	text-align: center;
+	background-color: rgb(7, 54, 7);
+	padding: 2%;
+	box-shadow: 0px 12px 50px black;
+	border-radius: 2px;
+	border-style: solid ;
+	color: #fff;
+	justify-content: 100%-20% 100%-20%;
+	margin-left: 0px;
+}
+
+
+/*  container 1  */
+.container1 .mcq{
+	
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+
+.container1 .mcq_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+
+/* Interview Question and Answer */
+.interview_question_answer{
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+
+.interview_question_answer_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+/* Practise Question and Answer */
+.practise_question{
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+
+.practise_question_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+/* Practise Platform */
+.practise_platform{
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+
+.practise_platform_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+/*     Learning Resources       */
+.learning_resources{
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+
+.learning_resources_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+
+/* Mcq container link design */
+.mcq_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
+
+/* question and answer container link design */
+.interview_question_answer_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
+
+/* practise question container link design */
+.practise_question_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
+
+
+/* coding platform container link design */
+.practise_platform_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
+
+/* learning resources container link design */
+.learning_resources_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
+
+/* all link style to be none */
+ ul{
+	list-style: none;
+ }
+ /* Practise Question and Answer */
+ .algorithms_resources{
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 5px;
+	list-style-type: square;
+	border-radius: 0%;
+	border-color: black;
+	border-style: solid;
+	padding: 10px 10px ;
+	background-color: rgb(48, 19, 19);
+	color: white;
+	display: inline-block;
+
+}
+.algorithms_resources_container{
+	padding-top: 20px;
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifd;
+	padding-left: 65px;
+}
+
+.algorithms_resources_container ul li a{
+	padding-top: px;
+	background-color: rgb(26, 15, 88);
+	width: 100%;
+	line-height: 50px;
+	white-space: 200px;
+	color :rgb(254, 254, 255);
+	text-decoration: none ;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	justify-content: space-evenly;
+	transition: all 0.3 eas e; 
+	border-color: rgb(216, 66, 6);
+	border-style: solid;
+}
